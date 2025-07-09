@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_shared_stats_section",
+  "info": {
+    "displayName": "Stats Section",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "stats": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.stat-item"
+    }
+  }
+}

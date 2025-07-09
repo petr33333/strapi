@@ -1,0 +1,24 @@
+{
+  "collectionName": "components_shared_stat_item",
+  "info": {
+    "displayName": "Stat Item",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "label": {
+      "type": "string",
+      "required": true
+    },
+    "value": {
+      "type": "string",
+      "required": true
+    },
+    "number": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    }
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_shared_gallery_section",
+  "info": {
+    "displayName": "Gallery Section",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "richtext"
+    },
+    "images": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.gallery-item"
+    }
+  }
+}

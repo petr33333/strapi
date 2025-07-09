@@ -1,0 +1,41 @@
+{
+  "collectionName": "components_shared_pricing_section",
+  "info": {
+    "displayName": "Pricing Section",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "subtitle": {
+      "type": "text"
+    },
+    "startingPrice": {
+      "type": "string"
+    },
+    "priceLabel": {
+      "type": "string"
+    },
+    "highSeasonPrice": {
+      "type": "string"
+    },
+    "lowSeasonPrice": {
+      "type": "string"
+    },
+    "priceNote": {
+      "type": "richtext"
+    },
+    "features": {
+      "type": "json"
+    },
+    "ctaText": {
+      "type": "string"
+    },
+    "ctaLink": {
+      "type": "string"
+    }
+  }
+}
