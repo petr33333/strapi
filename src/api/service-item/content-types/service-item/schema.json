@@ -17,7 +17,12 @@
     "slug": {
       "type": "uid",
       "targetField": "title",
-      "required": true
+      "required": true,
+      "configurable": false,
+      "options": {
+        "separator": "-",
+        "lowercase": true
+      }
     },
     "shortDescription": {
       "type": "text"
