@@ -1,0 +1,26 @@
+{
+  "collectionName": "components_shared_image_cards",
+  "info": {
+    "displayName": "Image Card",
+    "description": "Individual card for manual grid - like service item but standalone"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "description": {
+      "type": "text"
+    },
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": ["images"]
+    },
+    "link": {
+      "type": "string"
+    }
+  }
+}
