@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_shared_image_cards_sections",
+  "info": {
+    "displayName": "Image Cards Section",
+    "description": "Manual card grid like service items but without requiring actual service items"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "cards": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.image-card"
+    }
+  }
+}
