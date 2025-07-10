@@ -34,9 +34,27 @@
         "images"
       ]
     },
+    "heroTitle": {
+      "type": "string"
+    },
+    "heroSubtitle": {
+      "type": "text"
+    },
     "order": {
       "type": "integer",
       "default": 0
+    },
+    "pageSections": {
+      "type": "dynamiczone",
+      "components": [
+        "shared.hero-section",
+        "shared.stats-section",
+        "shared.image-text-section",
+        "shared.pricing-section",
+        "shared.gallery-section",
+        "shared.cta-section",
+        "shared.image-cards-section"
+      ]
     },
     "service_items": {
       "type": "relation",
